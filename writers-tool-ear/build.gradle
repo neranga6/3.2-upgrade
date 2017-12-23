@@ -1,0 +1,36 @@
+group 'writer-tool-Ear'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'ear'
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // The following dependencies will be the ear modules and
+    // will be placed in the ear root
+    compile'commons-collections:commons-collections:3.0'
+    deploy project(path:':writers-tool-web', configuration: 'archives')
+    // The following dependencies will become ear libs and will
+}
+
+task assembleArtifact(type: Ear, group: 'writers.tool.web') {
+    archiveName 'writers-tool.ear'
+    destinationDir file("$buildDir/libs")
+
+}
+
+ear {
+
+    deploymentDescriptor {  // custom entries for application.xml:
+//     fileName = "application.xml"  // same as the default value
+        version = "6"  // same as the default value
+        initializeInOrder = true
+        //displayName = "writers-tool-web"  // defaults to project.name
+        // defaults to project.description if not set
+    }
+}

@@ -1,0 +1,3 @@
+rootProject.name = 'writers-tool-ear'
+includeFlat 'writers-tool-web'
+

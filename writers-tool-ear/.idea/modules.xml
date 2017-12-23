@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/writers-tool-ear.iml" filepath="$PROJECT_DIR$/.idea/modules/writers-tool-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../writers-tool-web/writers-tool-web.iml" filepath="$PROJECT_DIR$/../writers-tool-web/writers-tool-web.iml" group="writers-tool-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1719760178/writers-tool-web_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1719760178/writers-tool-web_integrationTest.iml" group="writers-tool-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1719760178/writers-tool-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1719760178/writers-tool-web_main.iml" group="writers-tool-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1719760178/writers-tool-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1719760178/writers-tool-web_test.iml" group="writers-tool-web" />
+    </modules>
+  </component>
+</project>
